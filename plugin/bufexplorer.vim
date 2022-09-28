@@ -531,8 +531,8 @@ function! s:MapKeys()
     nnoremap <script> <silent> <nowait> <buffer> q             :call <SID>Close()<CR>
     nnoremap <script> <silent> <nowait> <buffer> r             :call <SID>SortReverse()<CR>
     nnoremap <script> <silent> <nowait> <buffer> R             :call <SID>ToggleShowRelativePath()<CR>
-    nnoremap <script> <silent> <nowait> <buffer> s             :call <SID>SortSelect()<CR>
-    nnoremap <script> <silent> <nowait> <buffer> S             :call <SID>ReverseSortSelect()<CR>
+    " nnoremap <script> <silent> <nowait> <buffer> s             :call <SID>SortSelect()<CR>
+    " nnoremap <script> <silent> <nowait> <buffer> S             :call <SID>ReverseSortSelect()<CR>
     nnoremap <script> <silent> <nowait> <buffer> t             :call <SID>SelectBuffer("tab")<CR>
     nnoremap <script> <silent> <nowait> <buffer> T             :call <SID>ToggleShowTabBuffer()<CR>
     nnoremap <script> <silent> <nowait> <buffer> u             :call <SID>ToggleShowUnlisted()<CR>
